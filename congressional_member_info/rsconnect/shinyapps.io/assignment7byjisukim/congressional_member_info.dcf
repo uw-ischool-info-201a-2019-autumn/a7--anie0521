@@ -1,0 +1,12 @@
+name: congressional_member_info
+title: congressional_member_info
+username:
+account: assignment7byjisukim
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1554110
+bundleId: 2635472
+url: https://assignment7byjisukim.shinyapps.io/congressional_member_info/
+when: 1575367128.87689
+asMultiple: FALSE
+asStatic: FALSE
