@@ -1,4 +1,4 @@
 # a7-starter
 Starter repository for a7
 
-shinyApp : https://assignment7byjisukim.shinyapps.io/congressional_member_info/
+shinyApp :https://assignment7byjisukim.shinyapps.io/a7--anie0521/
