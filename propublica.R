@@ -1,9 +1,10 @@
 
+
 library(httr)
 library(jsonlite)
 library(stringr)
 library(dplyr)
-setwd("~/Documents/GitHub/a7--anie0521")
+#setwd("~/Documents/GitHub/a7--anie0521")
 source("propublica_key.R")
 
 
@@ -49,7 +50,7 @@ call_representative <- function(chamber = "house", state) {
   response_text <- content(response, type = "text", encoding = "UTF-8")
   response_data <- fromJSON(response_text)
   results_data <- as.data.frame(response_data$results)
-  return(results_data)
+  #return(results_data)
 }
 
 # This code returns the data table through selecting a state by the user.  
@@ -75,7 +76,7 @@ call_memberid <- function(member_id) {
   response_text <- content(response, type = "text", encoding = "UTF-8")
   response_data <- fromJSON(response_text)
   results_data <- response_data$results
-  return(results_data)
+  #return(results_data)
 }
 
 # This code returns the data table which includes state, fullname, url, phone, office, and gender by member id.
@@ -92,7 +93,7 @@ member_info <- all_members %>%
 get_age <- function(member_id) {
   df <- call_memberid(member_id)
   age <- floor(((Sys.Date() - as.Date(df$date_of_birth)) / 365.25))
-  return(as.integer(age))
+  #return(as.integer(age))
 }
 
 

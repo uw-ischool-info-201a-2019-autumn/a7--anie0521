@@ -6,13 +6,14 @@
 #
 #    http://shiny.rstudio.com/
 #
+# install.packages("shiny")
 
 library(shiny)
 library(reshape2)
 library(htmltools)
 library(shinythemes)
 library(shinydashboard)
-source("propublica.R")
+#source("propublica.R")
 
 
 ui <- navbarPage("Assignment 7", theme = shinytheme("paper"),

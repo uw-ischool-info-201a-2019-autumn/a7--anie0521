@@ -5,9 +5,9 @@ account: assignment7byjisukim
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1558024
-bundleId: 2638231
+bundleId: 2638558
 url: https://assignment7byjisukim.shinyapps.io/a7--anie0521/
-when: 1575420394.72825
+when: 1575428218.12342
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: .Gitignore.swp|.RData|app_server.R|app_ui.R|propublica_key.R|propublica.R|README.md|rubric.md
+ignoredFiles: README.md|rubric.md
